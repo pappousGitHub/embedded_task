@@ -1,0 +1,3 @@
+/home/Linux/embedded_task/build/CMakeFiles/rebuild_cache.dir
+/home/Linux/embedded_task/build/CMakeFiles/edit_cache.dir
+/home/Linux/embedded_task/build/CMakeFiles/kernel_module.dir
