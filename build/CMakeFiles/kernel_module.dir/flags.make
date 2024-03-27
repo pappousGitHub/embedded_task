@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -Dkernel_module_EXPORTS
 
-C_INCLUDES = -I/lib/modules/6.1.21+/build/include
+C_INCLUDES = -I/usr/src/linux-headers-6.1.21+/include
 
 C_FLAGS = -fPIC
 

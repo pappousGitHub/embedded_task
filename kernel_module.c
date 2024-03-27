@@ -6,8 +6,8 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/fs.h>
-#include <asm/uaccess.h>	/* for put_user */
-
+#include <asm_generic/uaccess.h>	/* for put_user */
+//#include <asm/uaccess.h>
 /*  
  *  Prototypes - this would normally go in a .h file
  */

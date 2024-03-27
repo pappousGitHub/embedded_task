@@ -14,10 +14,14 @@ set(KMOD_NAME kernel_module)
 add_library(${KMOD_NAME} MODULE ${SRC_FILES})
 
 # Include the kernel headers
-target_include_directories(${KMOD_NAME} PRIVATE ${KERNEL_DIR}/include)
+#target_include_directories(${KMOD_NAME} PRIVATE /home/Linux/kernel_headers/linux-headers-5.10.0/usr/src/linux-headers-5.10.0-051000-generic/include/)
+#target_include_directories(${KMOD_NAME} PRIVATE /home/Linux/kernel_headers/linux-headers-5.10.0/usr/src/linux-headers-5.10.0-051000-generic/arch/x86/include)
+#target_include_directories(${KMOD_NAME} PRIVATE ${KERNEL_DIR}/include)
+target_include_directories(${KMOD_NAME} PRIVATE /usr/src/linux-headers-6.1.21+/include)
 
 # Specify the module name and the destination directory
 set_target_properties(${KMOD_NAME} PROPERTIES PREFIX "" SUFFIX ".ko" LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/out")
 
 # Add a rule to copy the compiled module to the desired location
 add_custom_command(TARGET ${KMOD_NAME} POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:${KMOD_NAME}> "${CMAKE_BINARY_DIR}/out/")
+

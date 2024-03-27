@@ -7,38 +7,26 @@
 #IncludeRegexTransform: 
 
 /home/Linux/embedded_task/kernel_module.c
-linux/init.h
--
 linux/kernel.h
 -
 linux/module.h
 -
 linux/fs.h
 -
-linux/uaccess.h
--
-linux/init.h
--
-linux/module.h
--
-linux/kernel.h
--
-linux/proc_fs.h
--
-linux/uaccess.h
+asm_generic/uaccess.h
 -
 
-/lib/modules/6.1.21+/build/include/asm-generic/atomic64.h
+/usr/src/linux-headers-6.1.21+/include/asm-generic/atomic64.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/asm-generic/bitops/generic-non-atomic.h
+/usr/src/linux-headers-6.1.21+/include/asm-generic/bitops/generic-non-atomic.h
 linux/bits.h
 -
 asm/barrier.h
 -
 
-/lib/modules/6.1.21+/build/include/asm-generic/bug.h
+/usr/src/linux-headers-6.1.21+/include/asm-generic/bug.h
 linux/compiler.h
 -
 linux/instrumentation.h
@@ -50,21 +38,21 @@ linux/panic.h
 linux/printk.h
 -
 
-/lib/modules/6.1.21+/build/include/asm-generic/error-injection.h
+/usr/src/linux-headers-6.1.21+/include/asm-generic/error-injection.h
 
-/lib/modules/6.1.21+/build/include/asm-generic/pgtable_uffd.h
+/usr/src/linux-headers-6.1.21+/include/asm-generic/pgtable_uffd.h
 
-/lib/modules/6.1.21+/build/include/generated/autoconf.h
+/usr/src/linux-headers-6.1.21+/include/generated/autoconf.h
 
-/lib/modules/6.1.21+/build/include/generated/bounds.h
+/usr/src/linux-headers-6.1.21+/include/generated/bounds.h
 
-/lib/modules/6.1.21+/build/include/generated/timeconst.h
+/usr/src/linux-headers-6.1.21+/include/generated/timeconst.h
 linux/param.h
 -
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/alarmtimer.h
+/usr/src/linux-headers-6.1.21+/include/linux/alarmtimer.h
 linux/time.h
 -
 linux/hrtimer.h
@@ -72,21 +60,21 @@ linux/hrtimer.h
 linux/timerqueue.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/align.h
+/usr/src/linux-headers-6.1.21+/include/linux/align.h
 linux/const.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/arch_topology.h
+/usr/src/linux-headers-6.1.21+/include/linux/arch_topology.h
 linux/types.h
 -
 linux/percpu.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/assoc_array.h
+/usr/src/linux-headers-6.1.21+/include/linux/assoc_array.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/atomic.h
+/usr/src/linux-headers-6.1.21+/include/linux/atomic.h
 linux/types.h
 -
 asm/atomic.h
@@ -100,13 +88,13 @@ linux/atomic/atomic-long.h
 linux/atomic/atomic-instrumented.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/atomic/atomic-arch-fallback.h
+/usr/src/linux-headers-6.1.21+/include/linux/atomic/atomic-arch-fallback.h
 linux/compiler.h
 -
 asm-generic/atomic64.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/atomic/atomic-instrumented.h
+/usr/src/linux-headers-6.1.21+/include/linux/atomic/atomic-instrumented.h
 linux/build_bug.h
 -
 linux/compiler.h
@@ -114,17 +102,17 @@ linux/compiler.h
 linux/instrumented.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/atomic/atomic-long.h
+/usr/src/linux-headers-6.1.21+/include/linux/atomic/atomic-long.h
 linux/compiler.h
 -
 asm/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/auxvec.h
+/usr/src/linux-headers-6.1.21+/include/linux/auxvec.h
 uapi/linux/auxvec.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/bit_spinlock.h
+/usr/src/linux-headers-6.1.21+/include/linux/bit_spinlock.h
 linux/kernel.h
 -
 linux/preempt.h
@@ -134,7 +122,7 @@ linux/atomic.h
 linux/bug.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/bitmap.h
+/usr/src/linux-headers-6.1.21+/include/linux/bitmap.h
 linux/align.h
 -
 linux/bitops.h
@@ -148,7 +136,7 @@ linux/string.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/bitops.h
+/usr/src/linux-headers-6.1.21+/include/linux/bitops.h
 asm/types.h
 -
 linux/bits.h
@@ -162,7 +150,7 @@ asm-generic/bitops/generic-non-atomic.h
 asm/bitops.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/bits.h
+/usr/src/linux-headers-6.1.21+/include/linux/bits.h
 linux/const.h
 -
 vdso/bits.h
@@ -172,13 +160,13 @@ asm/bitsperlong.h
 linux/build_bug.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/bottom_half.h
+/usr/src/linux-headers-6.1.21+/include/linux/bottom_half.h
 linux/instruction_pointer.h
 -
 linux/preempt.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/bug.h
+/usr/src/linux-headers-6.1.21+/include/linux/bug.h
 asm/bug.h
 -
 linux/compiler.h
@@ -188,45 +176,45 @@ linux/build_bug.h
 asm-generic/bug.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/build_bug.h
+/usr/src/linux-headers-6.1.21+/include/linux/build_bug.h
 linux/compiler.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/buildid.h
+/usr/src/linux-headers-6.1.21+/include/linux/buildid.h
 linux/mm_types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/cache.h
+/usr/src/linux-headers-6.1.21+/include/linux/cache.h
 uapi/linux/kernel.h
 -
 asm/cache.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/capability.h
+/usr/src/linux-headers-6.1.21+/include/linux/capability.h
 uapi/linux/capability.h
 -
 linux/uidgid.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/clocksource_ids.h
+/usr/src/linux-headers-6.1.21+/include/linux/clocksource_ids.h
 
-/lib/modules/6.1.21+/build/include/linux/compiler-clang.h
+/usr/src/linux-headers-6.1.21+/include/linux/compiler-clang.h
 
-/lib/modules/6.1.21+/build/include/linux/compiler-gcc.h
+/usr/src/linux-headers-6.1.21+/include/linux/compiler-gcc.h
 
-/lib/modules/6.1.21+/build/include/linux/compiler-intel.h
+/usr/src/linux-headers-6.1.21+/include/linux/compiler-intel.h
 asm/intrinsics.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/compiler.h
+/usr/src/linux-headers-6.1.21+/include/linux/compiler.h
 linux/compiler_types.h
 -
 asm/rwonce.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/compiler_attributes.h
+/usr/src/linux-headers-6.1.21+/include/linux/compiler_attributes.h
 
-/lib/modules/6.1.21+/build/include/linux/compiler_types.h
+/usr/src/linux-headers-6.1.21+/include/linux/compiler_types.h
 linux/compiler_attributes.h
 -
 linux/compiler-clang.h
@@ -238,23 +226,23 @@ linux/compiler-gcc.h
 asm/compiler.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/completion.h
+/usr/src/linux-headers-6.1.21+/include/linux/completion.h
 linux/swait.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/const.h
+/usr/src/linux-headers-6.1.21+/include/linux/const.h
 vdso/const.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/container_of.h
+/usr/src/linux-headers-6.1.21+/include/linux/container_of.h
 linux/build_bug.h
 -
 linux/err.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/context_tracking_irq.h
+/usr/src/linux-headers-6.1.21+/include/linux/context_tracking_irq.h
 
-/lib/modules/6.1.21+/build/include/linux/cpumask.h
+/usr/src/linux-headers-6.1.21+/include/linux/cpumask.h
 linux/kernel.h
 -
 linux/threads.h
@@ -270,7 +258,7 @@ linux/gfp_types.h
 linux/numa.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/cred.h
+/usr/src/linux-headers-6.1.21+/include/linux/cred.h
 linux/capability.h
 -
 linux/init.h
@@ -286,7 +274,7 @@ linux/sched.h
 linux/sched/user.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/dcache.h
+/usr/src/linux-headers-6.1.21+/include/linux/dcache.h
 linux/atomic.h
 -
 linux/list.h
@@ -312,31 +300,31 @@ linux/stringhash.h
 linux/wait.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/debug_locks.h
+/usr/src/linux-headers-6.1.21+/include/linux/debug_locks.h
 linux/atomic.h
 -
 linux/cache.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/debugobjects.h
+/usr/src/linux-headers-6.1.21+/include/linux/debugobjects.h
 linux/list.h
 -
 linux/spinlock.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/delayed_call.h
+/usr/src/linux-headers-6.1.21+/include/linux/delayed_call.h
 
-/lib/modules/6.1.21+/build/include/linux/dqblk_qtree.h
+/usr/src/linux-headers-6.1.21+/include/linux/dqblk_qtree.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/dqblk_v1.h
+/usr/src/linux-headers-6.1.21+/include/linux/dqblk_v1.h
 
-/lib/modules/6.1.21+/build/include/linux/dqblk_v2.h
+/usr/src/linux-headers-6.1.21+/include/linux/dqblk_v2.h
 linux/dqblk_qtree.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/dynamic_debug.h
+/usr/src/linux-headers-6.1.21+/include/linux/dynamic_debug.h
 linux/jump_label.h
 -
 linux/build_bug.h
@@ -348,7 +336,7 @@ linux/errno.h
 linux/printk.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/elf.h
+/usr/src/linux-headers-6.1.21+/include/linux/elf.h
 linux/types.h
 -
 asm/elf.h
@@ -356,7 +344,7 @@ asm/elf.h
 uapi/linux/elf.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/err.h
+/usr/src/linux-headers-6.1.21+/include/linux/err.h
 linux/compiler.h
 -
 linux/types.h
@@ -364,19 +352,19 @@ linux/types.h
 asm/errno.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/errno.h
+/usr/src/linux-headers-6.1.21+/include/linux/errno.h
 uapi/linux/errno.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/error-injection.h
+/usr/src/linux-headers-6.1.21+/include/linux/error-injection.h
 linux/compiler.h
 -
 asm-generic/error-injection.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/errseq.h
+/usr/src/linux-headers-6.1.21+/include/linux/errseq.h
 
-/lib/modules/6.1.21+/build/include/linux/export.h
+/usr/src/linux-headers-6.1.21+/include/linux/export.h
 linux/stringify.h
 -
 linux/compiler.h
@@ -384,21 +372,21 @@ linux/compiler.h
 generated/autoksyms.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/fault-inject-usercopy.h
+/usr/src/linux-headers-6.1.21+/include/linux/fault-inject-usercopy.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/fcntl.h
+/usr/src/linux-headers-6.1.21+/include/linux/fcntl.h
 linux/stat.h
 -
 uapi/linux/fcntl.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/find.h
+/usr/src/linux-headers-6.1.21+/include/linux/find.h
 linux/bitops.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/fortify-string.h
+/usr/src/linux-headers-6.1.21+/include/linux/fortify-string.h
 linux/bug.h
 -
 linux/const.h
@@ -408,7 +396,7 @@ linux/limits.h
 linux/kmsan_string.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/fs.h
+/usr/src/linux-headers-6.1.21+/include/linux/fs.h
 linux/linkage.h
 -
 linux/wait_bit.h
@@ -504,9 +492,9 @@ linux/nfs_fs_i.h
 linux/err.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/fs_types.h
+/usr/src/linux-headers-6.1.21+/include/linux/fs_types.h
 
-/lib/modules/6.1.21+/build/include/linux/fscrypt.h
+/usr/src/linux-headers-6.1.21+/include/linux/fscrypt.h
 linux/fs.h
 -
 linux/mm.h
@@ -516,7 +504,7 @@ linux/slab.h
 uapi/linux/fscrypt.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/gfp.h
+/usr/src/linux-headers-6.1.21+/include/linux/gfp.h
 linux/gfp_types.h
 -
 linux/mmzone.h
@@ -524,9 +512,9 @@ linux/mmzone.h
 linux/topology.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/gfp_types.h
+/usr/src/linux-headers-6.1.21+/include/linux/gfp_types.h
 
-/lib/modules/6.1.21+/build/include/linux/hash.h
+/usr/src/linux-headers-6.1.21+/include/linux/hash.h
 asm/types.h
 -
 linux/compiler.h
@@ -534,11 +522,11 @@ linux/compiler.h
 asm/hash.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/highuid.h
+/usr/src/linux-headers-6.1.21+/include/linux/highuid.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/hrtimer.h
+/usr/src/linux-headers-6.1.21+/include/linux/hrtimer.h
 linux/hrtimer_defs.h
 -
 linux/rbtree.h
@@ -556,11 +544,11 @@ linux/timer.h
 linux/timerqueue.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/hrtimer_defs.h
+/usr/src/linux-headers-6.1.21+/include/linux/hrtimer_defs.h
 linux/ktime.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/huge_mm.h
+/usr/src/linux-headers-6.1.21+/include/linux/huge_mm.h
 linux/sched/coredump.h
 -
 linux/mm_types.h
@@ -568,7 +556,7 @@ linux/mm_types.h
 linux/fs.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/idr.h
+/usr/src/linux-headers-6.1.21+/include/linux/idr.h
 linux/radix-tree.h
 -
 linux/gfp.h
@@ -576,19 +564,19 @@ linux/gfp.h
 linux/percpu.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/init.h
+/usr/src/linux-headers-6.1.21+/include/linux/init.h
 linux/compiler.h
 -
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/instruction_pointer.h
+/usr/src/linux-headers-6.1.21+/include/linux/instruction_pointer.h
 
-/lib/modules/6.1.21+/build/include/linux/instrumentation.h
+/usr/src/linux-headers-6.1.21+/include/linux/instrumentation.h
 linux/stringify.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/instrumented.h
+/usr/src/linux-headers-6.1.21+/include/linux/instrumented.h
 linux/compiler.h
 -
 linux/kasan-checks.h
@@ -600,13 +588,13 @@ linux/kmsan-checks.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/ioasid.h
+/usr/src/linux-headers-6.1.21+/include/linux/ioasid.h
 linux/types.h
 -
 linux/errno.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/iocontext.h
+/usr/src/linux-headers-6.1.21+/include/linux/iocontext.h
 linux/radix-tree.h
 -
 linux/rcupdate.h
@@ -614,7 +602,7 @@ linux/rcupdate.h
 linux/workqueue.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/ioport.h
+/usr/src/linux-headers-6.1.21+/include/linux/ioport.h
 linux/bits.h
 -
 linux/compiler.h
@@ -624,7 +612,7 @@ linux/minmax.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/ioprio.h
+/usr/src/linux-headers-6.1.21+/include/linux/ioprio.h
 linux/sched.h
 -
 linux/sched/rt.h
@@ -634,7 +622,7 @@ linux/iocontext.h
 uapi/linux/ioprio.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/ipc.h
+/usr/src/linux-headers-6.1.21+/include/linux/ipc.h
 linux/spinlock.h
 -
 linux/uidgid.h
@@ -646,7 +634,7 @@ uapi/linux/ipc.h
 linux/refcount.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/irqflags.h
+/usr/src/linux-headers-6.1.21+/include/linux/irqflags.h
 linux/typecheck.h
 -
 asm/irqflags.h
@@ -654,11 +642,11 @@ asm/irqflags.h
 asm/percpu.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/irqnr.h
+/usr/src/linux-headers-6.1.21+/include/linux/irqnr.h
 uapi/linux/irqnr.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/jiffies.h
+/usr/src/linux-headers-6.1.21+/include/linux/jiffies.h
 linux/cache.h
 -
 linux/limits.h
@@ -680,7 +668,7 @@ asm/param.h
 generated/timeconst.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/jump_label.h
+/usr/src/linux-headers-6.1.21+/include/linux/jump_label.h
 linux/types.h
 -
 linux/compiler.h
@@ -692,15 +680,15 @@ linux/atomic.h
 linux/bug.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/kasan-checks.h
+/usr/src/linux-headers-6.1.21+/include/linux/kasan-checks.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/kasan-enabled.h
+/usr/src/linux-headers-6.1.21+/include/linux/kasan-enabled.h
 linux/static_key.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/kasan.h
+/usr/src/linux-headers-6.1.21+/include/linux/kasan.h
 linux/bug.h
 -
 linux/kasan-enabled.h
@@ -718,29 +706,29 @@ asm/kasan.h
 linux/pgtable.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/kconfig.h
+/usr/src/linux-headers-6.1.21+/include/linux/kconfig.h
 generated/autoconf.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/kcsan-checks.h
+/usr/src/linux-headers-6.1.21+/include/linux/kcsan-checks.h
 linux/compiler_attributes.h
 -
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/kcsan.h
+/usr/src/linux-headers-6.1.21+/include/linux/kcsan.h
 linux/kcsan-checks.h
 -
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/kdev_t.h
+/usr/src/linux-headers-6.1.21+/include/linux/kdev_t.h
 uapi/linux/kdev_t.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/kern_levels.h
+/usr/src/linux-headers-6.1.21+/include/linux/kern_levels.h
 
-/lib/modules/6.1.21+/build/include/linux/kernel.h
+/usr/src/linux-headers-6.1.21+/include/linux/kernel.h
 linux/stdarg.h
 -
 linux/align.h
@@ -784,7 +772,7 @@ asm/byteorder.h
 uapi/linux/kernel.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/kernfs.h
+/usr/src/linux-headers-6.1.21+/include/linux/kernfs.h
 linux/err.h
 -
 linux/list.h
@@ -812,7 +800,7 @@ linux/rwsem.h
 linux/cache.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/key.h
+/usr/src/linux-headers-6.1.21+/include/linux/key.h
 linux/types.h
 -
 linux/list.h
@@ -836,7 +824,7 @@ linux/time64.h
 linux/uidgid.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/kmod.h
+/usr/src/linux-headers-6.1.21+/include/linux/kmod.h
 linux/umh.h
 -
 linux/gfp.h
@@ -852,15 +840,15 @@ linux/workqueue.h
 linux/sysctl.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/kmsan-checks.h
+/usr/src/linux-headers-6.1.21+/include/linux/kmsan-checks.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/kmsan_string.h
+/usr/src/linux-headers-6.1.21+/include/linux/kmsan_string.h
 
-/lib/modules/6.1.21+/build/include/linux/kmsan_types.h
+/usr/src/linux-headers-6.1.21+/include/linux/kmsan_types.h
 
-/lib/modules/6.1.21+/build/include/linux/kobject.h
+/usr/src/linux-headers-6.1.21+/include/linux/kobject.h
 linux/types.h
 -
 linux/list.h
@@ -886,21 +874,21 @@ linux/workqueue.h
 linux/uidgid.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/kobject_ns.h
+/usr/src/linux-headers-6.1.21+/include/linux/kobject_ns.h
 
-/lib/modules/6.1.21+/build/include/linux/kref.h
+/usr/src/linux-headers-6.1.21+/include/linux/kref.h
 linux/spinlock.h
 -
 linux/refcount.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/kstrtox.h
+/usr/src/linux-headers-6.1.21+/include/linux/kstrtox.h
 linux/compiler.h
 -
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/ktime.h
+/usr/src/linux-headers-6.1.21+/include/linux/ktime.h
 linux/time.h
 -
 linux/jiffies.h
@@ -912,11 +900,11 @@ vdso/ktime.h
 linux/timekeeping.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/latencytop.h
+/usr/src/linux-headers-6.1.21+/include/linux/latencytop.h
 linux/compiler.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/limits.h
+/usr/src/linux-headers-6.1.21+/include/linux/limits.h
 uapi/linux/limits.h
 -
 linux/types.h
@@ -924,7 +912,7 @@ linux/types.h
 vdso/limits.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/linkage.h
+/usr/src/linux-headers-6.1.21+/include/linux/linkage.h
 linux/compiler_types.h
 -
 linux/stringify.h
@@ -934,7 +922,7 @@ linux/export.h
 asm/linkage.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/list.h
+/usr/src/linux-headers-6.1.21+/include/linux/list.h
 linux/container_of.h
 -
 linux/types.h
@@ -948,13 +936,13 @@ linux/const.h
 asm/barrier.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/list_bl.h
+/usr/src/linux-headers-6.1.21+/include/linux/list_bl.h
 linux/list.h
 -
 linux/bit_spinlock.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/list_lru.h
+/usr/src/linux-headers-6.1.21+/include/linux/list_lru.h
 linux/list.h
 -
 linux/nodemask.h
@@ -964,7 +952,7 @@ linux/shrinker.h
 linux/xarray.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/llist.h
+/usr/src/linux-headers-6.1.21+/include/linux/llist.h
 linux/atomic.h
 -
 linux/container_of.h
@@ -974,17 +962,17 @@ linux/stddef.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/local_lock.h
+/usr/src/linux-headers-6.1.21+/include/linux/local_lock.h
 linux/local_lock_internal.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/local_lock_internal.h
+/usr/src/linux-headers-6.1.21+/include/linux/local_lock_internal.h
 linux/percpu-defs.h
 -
 linux/lockdep.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/lockdep.h
+/usr/src/linux-headers-6.1.21+/include/linux/lockdep.h
 linux/lockdep_types.h
 -
 linux/smp.h
@@ -1000,23 +988,23 @@ linux/debug_locks.h
 linux/stacktrace.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/lockdep_types.h
+/usr/src/linux-headers-6.1.21+/include/linux/lockdep_types.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/lockref.h
+/usr/src/linux-headers-6.1.21+/include/linux/lockref.h
 linux/spinlock.h
 -
 generated/bounds.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/log2.h
+/usr/src/linux-headers-6.1.21+/include/linux/log2.h
 linux/types.h
 -
 linux/bitops.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/maple_tree.h
+/usr/src/linux-headers-6.1.21+/include/linux/maple_tree.h
 linux/kernel.h
 -
 linux/rcupdate.h
@@ -1024,7 +1012,7 @@ linux/rcupdate.h
 linux/spinlock.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/math.h
+/usr/src/linux-headers-6.1.21+/include/linux/math.h
 linux/types.h
 -
 asm/div64.h
@@ -1032,7 +1020,7 @@ asm/div64.h
 uapi/linux/kernel.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/math64.h
+/usr/src/linux-headers-6.1.21+/include/linux/math64.h
 linux/types.h
 -
 linux/math.h
@@ -1042,7 +1030,7 @@ vdso/math64.h
 asm/div64.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/memory_hotplug.h
+/usr/src/linux-headers-6.1.21+/include/linux/memory_hotplug.h
 linux/mmzone.h
 -
 linux/spinlock.h
@@ -1052,7 +1040,7 @@ linux/notifier.h
 linux/bug.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/memremap.h
+/usr/src/linux-headers-6.1.21+/include/linux/memremap.h
 linux/mmzone.h
 -
 linux/range.h
@@ -1062,13 +1050,13 @@ linux/ioport.h
 linux/percpu-refcount.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/migrate_mode.h
+/usr/src/linux-headers-6.1.21+/include/linux/migrate_mode.h
 
-/lib/modules/6.1.21+/build/include/linux/minmax.h
+/usr/src/linux-headers-6.1.21+/include/linux/minmax.h
 linux/const.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/mm.h
+/usr/src/linux-headers-6.1.21+/include/linux/mm.h
 linux/errno.h
 -
 linux/mmdebug.h
@@ -1132,7 +1120,7 @@ linux/huge_mm.h
 linux/vmstat.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/mm_types.h
+/usr/src/linux-headers-6.1.21+/include/linux/mm_types.h
 linux/mm_types_task.h
 -
 linux/auxvec.h
@@ -1166,7 +1154,7 @@ linux/seqlock.h
 asm/mmu.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/mm_types_task.h
+/usr/src/linux-headers-6.1.21+/include/linux/mm_types_task.h
 linux/types.h
 -
 linux/threads.h
@@ -1180,7 +1168,7 @@ asm/page.h
 asm/tlbbatch.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/mmap_lock.h
+/usr/src/linux-headers-6.1.21+/include/linux/mmap_lock.h
 linux/lockdep.h
 -
 linux/mm_types.h
@@ -1194,13 +1182,13 @@ linux/tracepoint-defs.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/mmdebug.h
+/usr/src/linux-headers-6.1.21+/include/linux/mmdebug.h
 linux/bug.h
 -
 linux/stringify.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/mmzone.h
+/usr/src/linux-headers-6.1.21+/include/linux/mmzone.h
 linux/spinlock.h
 -
 linux/list.h
@@ -1242,13 +1230,13 @@ asm/mmzone.h
 asm/sparsemem.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/mnt_idmapping.h
+/usr/src/linux-headers-6.1.21+/include/linux/mnt_idmapping.h
 linux/types.h
 -
 linux/uidgid.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/module.h
+/usr/src/linux-headers-6.1.21+/include/linux/module.h
 linux/list.h
 -
 linux/stat.h
@@ -1290,7 +1278,7 @@ linux/percpu.h
 asm/module.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/moduleparam.h
+/usr/src/linux-headers-6.1.21+/include/linux/moduleparam.h
 linux/init.h
 -
 linux/stringify.h
@@ -1298,13 +1286,13 @@ linux/stringify.h
 linux/kernel.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/mount.h
+/usr/src/linux-headers-6.1.21+/include/linux/mount.h
 linux/types.h
 -
 asm/barrier.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/mutex.h
+/usr/src/linux-headers-6.1.21+/include/linux/mutex.h
 asm/current.h
 -
 linux/list.h
@@ -1324,9 +1312,9 @@ linux/debug_locks.h
 linux/rtmutex.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/nfs_fs_i.h
+/usr/src/linux-headers-6.1.21+/include/linux/nfs_fs_i.h
 
-/lib/modules/6.1.21+/build/include/linux/nodemask.h
+/usr/src/linux-headers-6.1.21+/include/linux/nodemask.h
 linux/threads.h
 -
 linux/bitmap.h
@@ -1338,7 +1326,7 @@ linux/numa.h
 linux/random.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/notifier.h
+/usr/src/linux-headers-6.1.21+/include/linux/notifier.h
 linux/errno.h
 -
 linux/mutex.h
@@ -1348,7 +1336,7 @@ linux/rwsem.h
 linux/srcu.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/numa.h
+/usr/src/linux-headers-6.1.21+/include/linux/numa.h
 linux/types.h
 -
 linux/printk.h
@@ -1356,19 +1344,19 @@ linux/printk.h
 asm/sparsemem.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/once.h
+/usr/src/linux-headers-6.1.21+/include/linux/once.h
 linux/types.h
 -
 linux/jump_label.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/once_lite.h
+/usr/src/linux-headers-6.1.21+/include/linux/once_lite.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/osq_lock.h
+/usr/src/linux-headers-6.1.21+/include/linux/osq_lock.h
 
-/lib/modules/6.1.21+/build/include/linux/overflow.h
+/usr/src/linux-headers-6.1.21+/include/linux/overflow.h
 linux/compiler.h
 -
 linux/limits.h
@@ -1376,7 +1364,7 @@ linux/limits.h
 linux/const.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/page-flags-layout.h
+/usr/src/linux-headers-6.1.21+/include/linux/page-flags-layout.h
 linux/numa.h
 -
 generated/bounds.h
@@ -1384,7 +1372,7 @@ generated/bounds.h
 asm/sparsemem.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/page-flags.h
+/usr/src/linux-headers-6.1.21+/include/linux/page-flags.h
 linux/types.h
 -
 linux/bug.h
@@ -1396,7 +1384,7 @@ linux/mm_types.h
 generated/bounds.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/page_ext.h
+/usr/src/linux-headers-6.1.21+/include/linux/page_ext.h
 linux/types.h
 -
 linux/stacktrace.h
@@ -1404,7 +1392,7 @@ linux/stacktrace.h
 linux/stackdepot.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/page_ref.h
+/usr/src/linux-headers-6.1.21+/include/linux/page_ref.h
 linux/atomic.h
 -
 linux/mm_types.h
@@ -1414,25 +1402,25 @@ linux/page-flags.h
 linux/tracepoint-defs.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/page_table_check.h
+/usr/src/linux-headers-6.1.21+/include/linux/page_table_check.h
 linux/jump_label.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/pageblock-flags.h
+/usr/src/linux-headers-6.1.21+/include/linux/pageblock-flags.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/panic.h
+/usr/src/linux-headers-6.1.21+/include/linux/panic.h
 linux/compiler_attributes.h
 -
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/path.h
+/usr/src/linux-headers-6.1.21+/include/linux/path.h
 
-/lib/modules/6.1.21+/build/include/linux/percpu-defs.h
+/usr/src/linux-headers-6.1.21+/include/linux/percpu-defs.h
 
-/lib/modules/6.1.21+/build/include/linux/percpu-refcount.h
+/usr/src/linux-headers-6.1.21+/include/linux/percpu-refcount.h
 linux/atomic.h
 -
 linux/percpu.h
@@ -1444,7 +1432,7 @@ linux/types.h
 linux/gfp.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/percpu-rwsem.h
+/usr/src/linux-headers-6.1.21+/include/linux/percpu-rwsem.h
 linux/atomic.h
 -
 linux/percpu.h
@@ -1458,7 +1446,7 @@ linux/rcu_sync.h
 linux/lockdep.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/percpu.h
+/usr/src/linux-headers-6.1.21+/include/linux/percpu.h
 linux/mmdebug.h
 -
 linux/preempt.h
@@ -1474,7 +1462,7 @@ linux/init.h
 asm/percpu.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/percpu_counter.h
+/usr/src/linux-headers-6.1.21+/include/linux/percpu_counter.h
 linux/spinlock.h
 -
 linux/smp.h
@@ -1490,11 +1478,11 @@ linux/types.h
 linux/gfp.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/pfn.h
+/usr/src/linux-headers-6.1.21+/include/linux/pfn.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/pgtable.h
+/usr/src/linux-headers-6.1.21+/include/linux/pgtable.h
 linux/pfn.h
 -
 asm/pgtable.h
@@ -1510,7 +1498,7 @@ asm-generic/pgtable_uffd.h
 linux/page_table_check.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/pid.h
+/usr/src/linux-headers-6.1.21+/include/linux/pid.h
 linux/rculist.h
 -
 linux/wait.h
@@ -1518,7 +1506,7 @@ linux/wait.h
 linux/refcount.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/plist.h
+/usr/src/linux-headers-6.1.21+/include/linux/plist.h
 linux/container_of.h
 -
 linux/list.h
@@ -1528,9 +1516,9 @@ linux/types.h
 asm/bug.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/poison.h
+/usr/src/linux-headers-6.1.21+/include/linux/poison.h
 
-/lib/modules/6.1.21+/build/include/linux/posix-timers.h
+/usr/src/linux-headers-6.1.21+/include/linux/posix-timers.h
 linux/spinlock.h
 -
 linux/list.h
@@ -1540,7 +1528,7 @@ linux/alarmtimer.h
 linux/timerqueue.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/prandom.h
+/usr/src/linux-headers-6.1.21+/include/linux/prandom.h
 linux/types.h
 -
 linux/percpu.h
@@ -1548,7 +1536,7 @@ linux/percpu.h
 linux/random.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/preempt.h
+/usr/src/linux-headers-6.1.21+/include/linux/preempt.h
 linux/linkage.h
 -
 linux/list.h
@@ -1556,7 +1544,7 @@ linux/list.h
 asm/preempt.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/printk.h
+/usr/src/linux-headers-6.1.21+/include/linux/printk.h
 linux/stdarg.h
 -
 linux/init.h
@@ -1572,19 +1560,11 @@ linux/once_lite.h
 linux/dynamic_debug.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/proc_fs.h
-linux/compiler.h
--
-linux/types.h
--
-linux/fs.h
--
-
-/lib/modules/6.1.21+/build/include/linux/projid.h
+/usr/src/linux-headers-6.1.21+/include/linux/projid.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/quota.h
+/usr/src/linux-headers-6.1.21+/include/linux/quota.h
 linux/list.h
 -
 linux/mutex.h
@@ -1612,7 +1592,7 @@ linux/projid.h
 uapi/linux/quota.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/radix-tree.h
+/usr/src/linux-headers-6.1.21+/include/linux/radix-tree.h
 linux/bitops.h
 -
 linux/gfp_types.h
@@ -1638,7 +1618,7 @@ linux/xarray.h
 linux/local_lock.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/random.h
+/usr/src/linux-headers-6.1.21+/include/linux/random.h
 linux/bug.h
 -
 linux/kernel.h
@@ -1654,11 +1634,11 @@ linux/prandom.h
 asm/archrandom.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/range.h
+/usr/src/linux-headers-6.1.21+/include/linux/range.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/ratelimit.h
+/usr/src/linux-headers-6.1.21+/include/linux/ratelimit.h
 linux/ratelimit_types.h
 -
 linux/sched.h
@@ -1666,7 +1646,7 @@ linux/sched.h
 linux/spinlock.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/ratelimit_types.h
+/usr/src/linux-headers-6.1.21+/include/linux/ratelimit_types.h
 linux/bits.h
 -
 linux/param.h
@@ -1674,7 +1654,7 @@ linux/param.h
 linux/spinlock_types_raw.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/rbtree.h
+/usr/src/linux-headers-6.1.21+/include/linux/rbtree.h
 linux/container_of.h
 -
 linux/rbtree_types.h
@@ -1684,7 +1664,7 @@ linux/stddef.h
 linux/rcupdate.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/rbtree_latch.h
+/usr/src/linux-headers-6.1.21+/include/linux/rbtree_latch.h
 linux/rbtree.h
 -
 linux/seqlock.h
@@ -1692,37 +1672,37 @@ linux/seqlock.h
 linux/rcupdate.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/rbtree_types.h
+/usr/src/linux-headers-6.1.21+/include/linux/rbtree_types.h
 
-/lib/modules/6.1.21+/build/include/linux/rcu_node_tree.h
+/usr/src/linux-headers-6.1.21+/include/linux/rcu_node_tree.h
 linux/math.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/rcu_segcblist.h
+/usr/src/linux-headers-6.1.21+/include/linux/rcu_segcblist.h
 linux/types.h
 -
 linux/atomic.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/rcu_sync.h
+/usr/src/linux-headers-6.1.21+/include/linux/rcu_sync.h
 linux/wait.h
 -
 linux/rcupdate.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/rculist.h
+/usr/src/linux-headers-6.1.21+/include/linux/rculist.h
 linux/list.h
 -
 linux/rcupdate.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/rculist_bl.h
+/usr/src/linux-headers-6.1.21+/include/linux/rculist_bl.h
 linux/list_bl.h
 -
 linux/rcupdate.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/rcupdate.h
+/usr/src/linux-headers-6.1.21+/include/linux/rcupdate.h
 linux/types.h
 -
 linux/compiler.h
@@ -1748,19 +1728,19 @@ linux/rcutree.h
 linux/rcutiny.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/rcutiny.h
+/usr/src/linux-headers-6.1.21+/include/linux/rcutiny.h
 asm/param.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/rcutree.h
+/usr/src/linux-headers-6.1.21+/include/linux/rcutree.h
 
-/lib/modules/6.1.21+/build/include/linux/rcuwait.h
+/usr/src/linux-headers-6.1.21+/include/linux/rcuwait.h
 linux/rcupdate.h
 -
 linux/sched/signal.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/refcount.h
+/usr/src/linux-headers-6.1.21+/include/linux/refcount.h
 linux/atomic.h
 -
 linux/bug.h
@@ -1772,11 +1752,11 @@ linux/limits.h
 linux/spinlock_types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/resource.h
+/usr/src/linux-headers-6.1.21+/include/linux/resource.h
 uapi/linux/resource.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/restart_block.h
+/usr/src/linux-headers-6.1.21+/include/linux/restart_block.h
 linux/compiler.h
 -
 linux/types.h
@@ -1784,7 +1764,7 @@ linux/types.h
 linux/time64.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/rhashtable-types.h
+/usr/src/linux-headers-6.1.21+/include/linux/rhashtable-types.h
 linux/atomic.h
 -
 linux/compiler.h
@@ -1794,7 +1774,7 @@ linux/mutex.h
 linux/workqueue.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/rtmutex.h
+/usr/src/linux-headers-6.1.21+/include/linux/rtmutex.h
 linux/compiler.h
 -
 linux/linkage.h
@@ -1804,25 +1784,25 @@ linux/rbtree_types.h
 linux/spinlock_types_raw.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/rv.h
+/usr/src/linux-headers-6.1.21+/include/linux/rv.h
 
-/lib/modules/6.1.21+/build/include/linux/rwbase_rt.h
+/usr/src/linux-headers-6.1.21+/include/linux/rwbase_rt.h
 linux/rtmutex.h
 -
 linux/atomic.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/rwlock.h
+/usr/src/linux-headers-6.1.21+/include/linux/rwlock.h
 
-/lib/modules/6.1.21+/build/include/linux/rwlock_api_smp.h
+/usr/src/linux-headers-6.1.21+/include/linux/rwlock_api_smp.h
 
-/lib/modules/6.1.21+/build/include/linux/rwlock_rt.h
+/usr/src/linux-headers-6.1.21+/include/linux/rwlock_rt.h
 
-/lib/modules/6.1.21+/build/include/linux/rwlock_types.h
+/usr/src/linux-headers-6.1.21+/include/linux/rwlock_types.h
 linux/rwbase_rt.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/rwsem.h
+/usr/src/linux-headers-6.1.21+/include/linux/rwsem.h
 linux/linkage.h
 -
 linux/types.h
@@ -1840,7 +1820,7 @@ linux/osq_lock.h
 linux/rwbase_rt.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/sched.h
+/usr/src/linux-headers-6.1.21+/include/linux/sched.h
 uapi/linux/sched.h
 -
 asm/current.h
@@ -1898,15 +1878,15 @@ linux/rv.h
 asm/kmap_size.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/sched/coredump.h
+/usr/src/linux-headers-6.1.21+/include/linux/sched/coredump.h
 linux/mm_types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/sched/jobctl.h
+/usr/src/linux-headers-6.1.21+/include/linux/sched/jobctl.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/sched/mm.h
+/usr/src/linux-headers-6.1.21+/include/linux/sched/mm.h
 linux/kernel.h
 -
 linux/atomic.h
@@ -1924,13 +1904,13 @@ linux/ioasid.h
 asm/membarrier.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/sched/prio.h
+/usr/src/linux-headers-6.1.21+/include/linux/sched/prio.h
 
-/lib/modules/6.1.21+/build/include/linux/sched/rt.h
+/usr/src/linux-headers-6.1.21+/include/linux/sched/rt.h
 linux/sched.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/sched/signal.h
+/usr/src/linux-headers-6.1.21+/include/linux/sched/signal.h
 linux/rculist.h
 -
 linux/signal.h
@@ -1952,17 +1932,17 @@ linux/mm_types.h
 asm/ptrace.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/sched/task.h
+/usr/src/linux-headers-6.1.21+/include/linux/sched/task.h
 linux/sched.h
 -
 linux/uaccess.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/sched/types.h
+/usr/src/linux-headers-6.1.21+/include/linux/sched/types.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/sched/user.h
+/usr/src/linux-headers-6.1.21+/include/linux/sched/user.h
 linux/uidgid.h
 -
 linux/atomic.h
@@ -1974,7 +1954,7 @@ linux/refcount.h
 linux/ratelimit.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/seccomp.h
+/usr/src/linux-headers-6.1.21+/include/linux/seccomp.h
 uapi/linux/seccomp.h
 -
 linux/thread_info.h
@@ -1986,17 +1966,17 @@ asm/seccomp.h
 linux/errno.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/sem.h
+/usr/src/linux-headers-6.1.21+/include/linux/sem.h
 uapi/linux/sem.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/semaphore.h
+/usr/src/linux-headers-6.1.21+/include/linux/semaphore.h
 linux/list.h
 -
 linux/spinlock.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/seqlock.h
+/usr/src/linux-headers-6.1.21+/include/linux/seqlock.h
 linux/compiler.h
 -
 linux/kcsan-checks.h
@@ -2012,7 +1992,7 @@ linux/spinlock.h
 asm/processor.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/shm.h
+/usr/src/linux-headers-6.1.21+/include/linux/shm.h
 linux/list.h
 -
 asm/page.h
@@ -2022,9 +2002,9 @@ uapi/linux/shm.h
 asm/shmparam.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/shrinker.h
+/usr/src/linux-headers-6.1.21+/include/linux/shrinker.h
 
-/lib/modules/6.1.21+/build/include/linux/signal.h
+/usr/src/linux-headers-6.1.21+/include/linux/signal.h
 linux/bug.h
 -
 linux/signal_types.h
@@ -2034,17 +2014,17 @@ linux/string.h
 linux/bitops.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/signal_types.h
+/usr/src/linux-headers-6.1.21+/include/linux/signal_types.h
 linux/list.h
 -
 uapi/linux/signal.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/sizes.h
+/usr/src/linux-headers-6.1.21+/include/linux/sizes.h
 linux/const.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/slab.h
+/usr/src/linux-headers-6.1.21+/include/linux/slab.h
 linux/gfp.h
 -
 linux/overflow.h
@@ -2058,7 +2038,7 @@ linux/percpu-refcount.h
 linux/kasan.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/smp.h
+/usr/src/linux-headers-6.1.21+/include/linux/smp.h
 linux/errno.h
 -
 linux/types.h
@@ -2080,11 +2060,11 @@ linux/thread_info.h
 asm/smp.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/smp_types.h
+/usr/src/linux-headers-6.1.21+/include/linux/smp_types.h
 linux/llist.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/spinlock.h
+/usr/src/linux-headers-6.1.21+/include/linux/spinlock.h
 linux/typecheck.h
 -
 linux/preempt.h
@@ -2124,17 +2104,17 @@ linux/spinlock_rt.h
 linux/atomic.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/spinlock_api_smp.h
+/usr/src/linux-headers-6.1.21+/include/linux/spinlock_api_smp.h
 linux/rwlock_api_smp.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/spinlock_api_up.h
+/usr/src/linux-headers-6.1.21+/include/linux/spinlock_api_up.h
 
-/lib/modules/6.1.21+/build/include/linux/spinlock_rt.h
+/usr/src/linux-headers-6.1.21+/include/linux/spinlock_rt.h
 linux/rwlock_rt.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/spinlock_types.h
+/usr/src/linux-headers-6.1.21+/include/linux/spinlock_types.h
 linux/spinlock_types_raw.h
 -
 linux/rtmutex.h
@@ -2142,7 +2122,7 @@ linux/rtmutex.h
 linux/rwlock_types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/spinlock_types_raw.h
+/usr/src/linux-headers-6.1.21+/include/linux/spinlock_types_raw.h
 linux/types.h
 -
 asm/spinlock_types.h
@@ -2152,15 +2132,15 @@ linux/spinlock_types_up.h
 linux/lockdep_types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/spinlock_types_up.h
+/usr/src/linux-headers-6.1.21+/include/linux/spinlock_types_up.h
 
-/lib/modules/6.1.21+/build/include/linux/spinlock_up.h
+/usr/src/linux-headers-6.1.21+/include/linux/spinlock_up.h
 asm/processor.h
 -
 asm/barrier.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/srcu.h
+/usr/src/linux-headers-6.1.21+/include/linux/srcu.h
 linux/mutex.h
 -
 linux/rcupdate.h
@@ -2174,27 +2154,27 @@ linux/srcutiny.h
 linux/srcutree.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/srcutiny.h
+/usr/src/linux-headers-6.1.21+/include/linux/srcutiny.h
 linux/swait.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/srcutree.h
+/usr/src/linux-headers-6.1.21+/include/linux/srcutree.h
 linux/rcu_node_tree.h
 -
 linux/completion.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/stackdepot.h
+/usr/src/linux-headers-6.1.21+/include/linux/stackdepot.h
 linux/gfp.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/stacktrace.h
+/usr/src/linux-headers-6.1.21+/include/linux/stacktrace.h
 linux/types.h
 -
 asm/errno.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/stat.h
+/usr/src/linux-headers-6.1.21+/include/linux/stat.h
 asm/stat.h
 -
 uapi/linux/stat.h
@@ -2206,7 +2186,7 @@ linux/time.h
 linux/uidgid.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/static_call_types.h
+/usr/src/linux-headers-6.1.21+/include/linux/static_call_types.h
 linux/types.h
 -
 linux/stringify.h
@@ -2214,17 +2194,17 @@ linux/stringify.h
 linux/compiler.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/static_key.h
+/usr/src/linux-headers-6.1.21+/include/linux/static_key.h
 linux/jump_label.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/stdarg.h
+/usr/src/linux-headers-6.1.21+/include/linux/stdarg.h
 
-/lib/modules/6.1.21+/build/include/linux/stddef.h
+/usr/src/linux-headers-6.1.21+/include/linux/stddef.h
 uapi/linux/stddef.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/string.h
+/usr/src/linux-headers-6.1.21+/include/linux/string.h
 linux/compiler.h
 -
 linux/types.h
@@ -2242,7 +2222,7 @@ asm/string.h
 linux/fortify-string.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/stringhash.h
+/usr/src/linux-headers-6.1.21+/include/linux/stringhash.h
 linux/compiler.h
 -
 linux/types.h
@@ -2250,9 +2230,9 @@ linux/types.h
 linux/hash.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/stringify.h
+/usr/src/linux-headers-6.1.21+/include/linux/stringify.h
 
-/lib/modules/6.1.21+/build/include/linux/swait.h
+/usr/src/linux-headers-6.1.21+/include/linux/swait.h
 linux/list.h
 -
 linux/stddef.h
@@ -2264,15 +2244,15 @@ linux/wait.h
 asm/current.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/sync_core.h
+/usr/src/linux-headers-6.1.21+/include/linux/sync_core.h
 asm/sync_core.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/syscall_user_dispatch.h
+/usr/src/linux-headers-6.1.21+/include/linux/syscall_user_dispatch.h
 linux/thread_info.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/sysctl.h
+/usr/src/linux-headers-6.1.21+/include/linux/sysctl.h
 linux/list.h
 -
 linux/rcupdate.h
@@ -2286,7 +2266,7 @@ linux/uidgid.h
 uapi/linux/sysctl.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/sysfs.h
+/usr/src/linux-headers-6.1.21+/include/linux/sysfs.h
 linux/kernfs.h
 -
 linux/compiler.h
@@ -2304,9 +2284,9 @@ linux/stat.h
 linux/atomic.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/task_io_accounting.h
+/usr/src/linux-headers-6.1.21+/include/linux/task_io_accounting.h
 
-/lib/modules/6.1.21+/build/include/linux/thread_info.h
+/usr/src/linux-headers-6.1.21+/include/linux/thread_info.h
 linux/types.h
 -
 linux/limits.h
@@ -2324,9 +2304,9 @@ linux/bitops.h
 asm/thread_info.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/threads.h
+/usr/src/linux-headers-6.1.21+/include/linux/threads.h
 
-/lib/modules/6.1.21+/build/include/linux/time.h
+/usr/src/linux-headers-6.1.21+/include/linux/time.h
 linux/cache.h
 -
 linux/math64.h
@@ -2338,7 +2318,7 @@ linux/time32.h
 vdso/time.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/time32.h
+/usr/src/linux-headers-6.1.21+/include/linux/time32.h
 linux/time64.h
 -
 linux/timex.h
@@ -2346,7 +2326,7 @@ linux/timex.h
 vdso/time32.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/time64.h
+/usr/src/linux-headers-6.1.21+/include/linux/time64.h
 linux/math64.h
 -
 vdso/time64.h
@@ -2354,13 +2334,13 @@ vdso/time64.h
 uapi/linux/time.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/timekeeping.h
+/usr/src/linux-headers-6.1.21+/include/linux/timekeeping.h
 linux/errno.h
 -
 linux/clocksource_ids.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/timer.h
+/usr/src/linux-headers-6.1.21+/include/linux/timer.h
 linux/list.h
 -
 linux/ktime.h
@@ -2372,13 +2352,13 @@ linux/debugobjects.h
 linux/stringify.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/timerqueue.h
+/usr/src/linux-headers-6.1.21+/include/linux/timerqueue.h
 linux/rbtree.h
 -
 linux/ktime.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/timex.h
+/usr/src/linux-headers-6.1.21+/include/linux/timex.h
 uapi/linux/timex.h
 -
 linux/compiler.h
@@ -2390,7 +2370,7 @@ linux/param.h
 asm/timex.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/topology.h
+/usr/src/linux-headers-6.1.21+/include/linux/topology.h
 linux/arch_topology.h
 -
 linux/cpumask.h
@@ -2406,19 +2386,19 @@ linux/percpu.h
 asm/topology.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/tracepoint-defs.h
+/usr/src/linux-headers-6.1.21+/include/linux/tracepoint-defs.h
 linux/atomic.h
 -
 linux/static_key.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/typecheck.h
+/usr/src/linux-headers-6.1.21+/include/linux/typecheck.h
 
-/lib/modules/6.1.21+/build/include/linux/types.h
+/usr/src/linux-headers-6.1.21+/include/linux/types.h
 uapi/linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/uaccess.h
+/usr/src/linux-headers-6.1.21+/include/linux/uaccess.h
 linux/fault-inject-usercopy.h
 -
 linux/instrumented.h
@@ -2432,13 +2412,13 @@ linux/thread_info.h
 asm/uaccess.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/uidgid.h
+/usr/src/linux-headers-6.1.21+/include/linux/uidgid.h
 linux/types.h
 -
 linux/highuid.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/umh.h
+/usr/src/linux-headers-6.1.21+/include/linux/umh.h
 linux/gfp.h
 -
 linux/stddef.h
@@ -2452,7 +2432,7 @@ linux/workqueue.h
 linux/sysctl.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/uprobes.h
+/usr/src/linux-headers-6.1.21+/include/linux/uprobes.h
 linux/errno.h
 -
 linux/rbtree.h
@@ -2464,15 +2444,15 @@ linux/wait.h
 asm/uprobes.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/uuid.h
+/usr/src/linux-headers-6.1.21+/include/linux/uuid.h
 uapi/linux/uuid.h
 -
 linux/string.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/vm_event_item.h
+/usr/src/linux-headers-6.1.21+/include/linux/vm_event_item.h
 
-/lib/modules/6.1.21+/build/include/linux/vmstat.h
+/usr/src/linux-headers-6.1.21+/include/linux/vmstat.h
 linux/types.h
 -
 linux/percpu.h
@@ -2488,7 +2468,7 @@ linux/static_key.h
 linux/mmdebug.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/wait.h
+/usr/src/linux-headers-6.1.21+/include/linux/wait.h
 linux/list.h
 -
 linux/stddef.h
@@ -2500,11 +2480,11 @@ asm/current.h
 uapi/linux/wait.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/wait_bit.h
+/usr/src/linux-headers-6.1.21+/include/linux/wait_bit.h
 linux/wait.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/workqueue.h
+/usr/src/linux-headers-6.1.21+/include/linux/workqueue.h
 linux/timer.h
 -
 linux/linkage.h
@@ -2522,7 +2502,7 @@ linux/cpumask.h
 linux/rcupdate.h
 -
 
-/lib/modules/6.1.21+/build/include/linux/xarray.h
+/usr/src/linux-headers-6.1.21+/include/linux/xarray.h
 linux/bitmap.h
 -
 linux/bug.h
@@ -2544,33 +2524,33 @@ linux/spinlock.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/auxvec.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/auxvec.h
 asm/auxvec.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/capability.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/capability.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/const.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/const.h
 
-/lib/modules/6.1.21+/build/include/uapi/linux/elf.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/elf.h
 linux/types.h
 -
 linux/elf-em.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/errno.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/errno.h
 asm/errno.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/fcntl.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/fcntl.h
 asm/fcntl.h
 -
 linux/openat2.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/fs.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/fs.h
 linux/limits.h
 -
 linux/ioctl.h
@@ -2582,37 +2562,37 @@ linux/fscrypt.h
 linux/mount.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/fscrypt.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/fscrypt.h
 linux/ioctl.h
 -
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/ioprio.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/ioprio.h
 
-/lib/modules/6.1.21+/build/include/uapi/linux/ipc.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/ipc.h
 linux/types.h
 -
 asm/ipcbuf.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/irqnr.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/irqnr.h
 
-/lib/modules/6.1.21+/build/include/uapi/linux/kdev_t.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/kdev_t.h
 
-/lib/modules/6.1.21+/build/include/uapi/linux/kernel.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/kernel.h
 linux/sysinfo.h
 -
 linux/const.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/limits.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/limits.h
 
-/lib/modules/6.1.21+/build/include/uapi/linux/quota.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/quota.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/random.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/random.h
 linux/types.h
 -
 linux/ioctl.h
@@ -2620,7 +2600,7 @@ linux/ioctl.h
 linux/irqnr.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/resource.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/resource.h
 linux/time.h
 -
 linux/types.h
@@ -2628,23 +2608,23 @@ linux/types.h
 asm/resource.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/sched.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/sched.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/seccomp.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/seccomp.h
 linux/compiler.h
 -
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/sem.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/sem.h
 linux/ipc.h
 -
 asm/sembuf.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/shm.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/shm.h
 linux/ipc.h
 -
 linux/errno.h
@@ -2656,25 +2636,25 @@ unistd.h
 asm/shmbuf.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/signal.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/signal.h
 asm/signal.h
 -
 asm/siginfo.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/stat.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/stat.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/stddef.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/stddef.h
 linux/compiler_types.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/string.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/string.h
 string.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/sysctl.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/sysctl.h
 linux/const.h
 -
 linux/types.h
@@ -2682,55 +2662,55 @@ linux/types.h
 linux/compiler.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/time.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/time.h
 linux/types.h
 -
 linux/time_types.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/timex.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/timex.h
 linux/time.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/types.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/types.h
 asm/types.h
 -
 linux/posix_types.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/uuid.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/uuid.h
 linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/uapi/linux/wait.h
+/usr/src/linux-headers-6.1.21+/include/uapi/linux/wait.h
 
-/lib/modules/6.1.21+/build/include/vdso/bits.h
+/usr/src/linux-headers-6.1.21+/include/vdso/bits.h
 vdso/const.h
 -
 
-/lib/modules/6.1.21+/build/include/vdso/const.h
+/usr/src/linux-headers-6.1.21+/include/vdso/const.h
 uapi/linux/const.h
 -
 
-/lib/modules/6.1.21+/build/include/vdso/jiffies.h
+/usr/src/linux-headers-6.1.21+/include/vdso/jiffies.h
 asm/param.h
 -
 vdso/time64.h
 -
 
-/lib/modules/6.1.21+/build/include/vdso/ktime.h
+/usr/src/linux-headers-6.1.21+/include/vdso/ktime.h
 vdso/jiffies.h
 -
 
-/lib/modules/6.1.21+/build/include/vdso/limits.h
+/usr/src/linux-headers-6.1.21+/include/vdso/limits.h
 
-/lib/modules/6.1.21+/build/include/vdso/math64.h
+/usr/src/linux-headers-6.1.21+/include/vdso/math64.h
 
-/lib/modules/6.1.21+/build/include/vdso/time.h
+/usr/src/linux-headers-6.1.21+/include/vdso/time.h
 uapi/linux/types.h
 -
 
-/lib/modules/6.1.21+/build/include/vdso/time32.h
+/usr/src/linux-headers-6.1.21+/include/vdso/time32.h
 
-/lib/modules/6.1.21+/build/include/vdso/time64.h
+/usr/src/linux-headers-6.1.21+/include/vdso/time64.h
 

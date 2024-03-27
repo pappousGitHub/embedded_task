@@ -1,0 +1,1 @@
+cmd_/home/Linux/embedded_task/build/Module.symvers :=  sed 's/ko$$/o/'  /home/Linux/embedded_task/build/modules.order | scripts/mod/modpost -m -a    -o /home/Linux/embedded_task/build/Module.symvers -e -i Module.symvers -T - 

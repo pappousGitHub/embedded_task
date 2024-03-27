@@ -15,7 +15,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/lib/modules/6.1.21+/build/include"
+  "/usr/src/linux-headers-6.1.21+/include"
   )
 
 # Targets to which this target links.
