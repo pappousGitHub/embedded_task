@@ -2,10 +2,12 @@ Write a linux kernel module as a chardev that can perform basic math operations
 [+,-,*,/] on two signed integers.  
 It should support accept two operands, an operator and return the calculated result
 to userspace.
+
 (ref: https://tldp.org/LDP/lkmpg/2.6/html/x569.html  4.1.5. chardev.c)
 
 Write a server application in python3 (gateway to the chardev) which handles math operations
 over unix domain sockets or any other IPC(inter-process communication) of choice, to multiple clients.
+
 (ref: https://www.baeldung.com/linux/python-unix-sockets)
 
 Write a userspace application in python3 that connects to the server, has basic terminal UI
